@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="style.css">
+    <title>SFOOD-Main</title>
+</head>
+<body>
+    <header id="inicio">
+        <div class="interface">
+            <div class="logo-header">
+                <img src="imagens/SFOOD1.png" alt="">
+            </div><!--logo-header-->
+        <nav class="menu-Desk">
+            <ul>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#PROMOÇOES">Promoções</a></li>
+                <li><a href="#contato">Trabalhe Conosco</a></li>
+                <li><a href="#equipe">Nossa Equipe</a></li>
+            </ul>
+        </nav> <!--menu-Desk-->
+        <div class="botao-header">
+            <button class="criarBT">Criar conta</button>
+            <a href="">
+            <button class="entrarBT">Entrar</button>
+            </a>
+        </div><!-- botao-header-->
+        </div><!--interface-->
+        
+    </header>
+
+    <main>
+
+        <section class="promoçoes" id="promoçoes">
+            <div class="interface">
+                <h4 class="titulo">PROMOÇÕES</h4>
+                <div class="flex">
+                    <div class="PROMOÇOES-box" style="background-image: url(imagens/carne.jpg);" ão da Semana">
+                        <div class="desktop-promo-hidden"><p id="textHidden">Promoção da Semana</p></div>
+                    </div>
+                    <div class="PROMOÇOES-box" style="background-image: url(imagens/temperos.jpg);" ção do Dia">
+                        <div class="desktop-promo-hidden"><p id="textHidden">Promoção do Dia</p></div>
+                    </div>
+                    <div class="PROMOÇOES-box" style="background-image: url(imagens/graos.jpg);" s em Grãos">
+                        <div class="desktop-promo-hidden"><p id="textHidden">Ofertas em Grãos</p></div>
+                    </div>
+                    <div class="PROMOÇOES-box" style="background-image: url(imagens/hamburguer.jpeg);" s com Desconto">
+                        <div class="desktop-promo-hidden"><p id="textHidden">Lanches com Desconto</p></div>
+                    </div>
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- promoçoes -->
+
+        <section class="produtos" id="produtos">
+            <div class="interface">
+                <h4 class="titulo">PRODUTOS</h4>
+                <div class="flex">
+                        <div class="produtos-box" style="background-image: url(imagens/carne.jpg);" >
+                            <div class="desktop-hidden"><p id="textHidden">Carnes</p></div>
+                        </div>
+                        <div class="produtos-box" style="background-image: url(imagens/temperos.jpg);" >
+                            <div class="desktop-hidden"><p id="textHidden">Temperos</p></div>
+                        </div>
+                        <div class="produtos-box" style="background-image: url(imagens/graos.jpg);" >
+                            <div class="desktop-hidden"><p id="textHidden">Grãos</p></div>
+                        </div>
+                        <div class="produtos-box" style="background-image: url(imagens/cafedamanha.jpeg);">
+                            <div class="desktop-hidden"><p id="textHidden">Café da Manhã</p></div>
+                        </div>
+                        <div class="produtos-box" style="background-image: url(imagens/natural.jpeg);" >
+                            <div class="desktop-hidden"><p id="textHidden">Produtos Naturais</p></div>
+                        </div>
+                        <div class="produtos-box" style="background-image: url(imagens/hamburguer.jpeg);" >
+                            <div class="desktop-hidden"><p id="textHidden">Lanches</p></div>
+                        </div>
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- produtos -->
+
+        <section class="sobre" id="Sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-sobre">
+                        <h2>QUEM SOMOS?</h2>
+                            <P>
+                                A SFood é uma iniciativa inovadora de uma grande rede de supermercados, oferecendo compras de supermercado online e refeições prontas de qualidade. 
+                                Com a SFood, você economiza tempo com entregas semanais e desfruta de conveniência, variedade, qualidade e segurança. Experimente uma nova era de compras e refeições, onde a velocidade e praticidade estão à distância de um toque.
+                                SFood: Sua solução para um estilo de vida mais conveniente e saboroso.</P>
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="equipe" id="equipe">
+            <div class="interface">
+                <h2 class="titulo">NOSSA EQUIPE</h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(imagens/vitinObrabo.jpeg);">
+                        <a target="_blank" href="https://instagram.com/tiodasbolacha?igshid=OGQ5ZDc2ODk2ZA=="><div class="overlay">Vitin</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/gabrielOpensador.jpeg);">
+                        <a target="_blank" href="https://instagram.com/_hampegj?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><div class="overlay">Gabriel</div></a>
+                    </div> 
+                    
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--equipe-->
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">TRABALHE CONOSCO</h2>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome:" required class="nome">
+                    <input type="text" name="" id="" placeholder="Seu Email:" required class="email">
+                    <input type="text" name="" id="" placeholder="Seu celular:" class="celular">
+                    <input type="file" name="" id="" placeholder="Seu curriculo:" class="arquivo">
+                    <textarea name="" id="" placeholder="Sua mensagem:" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="imagens/logoBatatinhas.png" alt="">
+                    </div>
+                    <div class="btn-social">
+                        <a target="_blank" href="https://www.instagram.com"> <button><img src="imagens/instagram.png" alt="icone instagram"></button></a>
+                        <a target="_blank" href="https://twitter.com"><button><img src="imagens/twitter.png" alt="icone Twitter"></button></a>
+                        <a target="_blank" href="https://www.facebook.com"><button><img src="imagens/facebook.png" alt="icone Facebook"></button></a>
+                    </div>
+                </div><!--flex-->
+            </div><!--line-footer-->
+            <div class="line-footer borda">
+                <p><img src="imagens/email.png" alt=""><a target="_blank" href="mailto:companysfood@gmail.com">companysfood@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+    
+</body>
+</html>
