@@ -225,6 +225,9 @@ section.promoçoes .flex {
 section.equipe{
     padding: 80px 4%;
 }
+section.equipe .titulo{
+    text-align: start;
+}
 
 section.equipe .flex{
     justify-content: space-around;
@@ -356,6 +359,13 @@ footer .line-footer p a{
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* celulares */
+    section.produtos {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    section.sobre{
+        padding-bottom: 0;
+    }
     header {
         padding: 10px 5%;
         height: 60px;
@@ -386,7 +396,7 @@ footer .line-footer p a{
     }
 
     section.sobre .txt-sobre p {
-        font-size: 15px;
+        font-size: 19px;
         margin: 0;
         text-align: left;
         margin: 0;
@@ -396,6 +406,9 @@ footer .line-footer p a{
         margin-top: 10px;
         font-size: 16px;
         
+    }
+    section.produtos .produtos-box{
+        margin-top: 10px;
     }
     .img-port {
         width: 180px;
@@ -416,19 +429,43 @@ footer .line-footer p a{
         display: flex;
         background-color: #0000002a;
         justify-content:center ;
-        margin-top: 17%;
+        margin-top: 25%;
     }
     
     .desktop-promo-hidden{
         display: flex;
         background-color: #0000002a;
         justify-content:center ;
-        margin-top: 17%;
+        margin-top: 19.5%;
     }
+    section.produtos .flex {
+    gap: 0 20px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+section.promoçoes .flex {
+    gap: 0 20px;
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+h4.titulo{
+    font-size: 18px;
+}
+h2.titulo{
+    font-size: 18px;
+}
+.txt-sobre h2{
+    font-size: 18px;
+}
 }
 
     @media screen and (min-device-width : 481px) and (max-device-width : 900px) {
         /* tablets */
+        
         .produtos-box #textHidden{
             color: white;
             font-size: 25px;
@@ -446,7 +483,7 @@ footer .line-footer p a{
         .desktop-promo-hidden{
             display: flex;
             background-color: #0000002a;
-            justify-content:center ;
+            justify-content:center;
             margin-top: 12%;
         }
         }
