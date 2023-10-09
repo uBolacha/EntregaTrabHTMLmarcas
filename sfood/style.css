@@ -173,14 +173,6 @@ section.produtos .flex {
 
 
 
-
-.produtos-box.desktop-hidden p{
-    display: flex;
-    color: white;
-    text-align: center;
-    
-}
-
 /* promoçoes */
 section.promoçoes {
     padding: 80px 4%;
@@ -499,12 +491,17 @@ h2.titulo{
                 color: white;
                 font-size: 25px;
             }
-            
             .desktop-hidden{
                 display: flex;
-                background-color: #00000033;
+                background-color: #0000002a;
                 justify-content:center ;
-                margin-top: 14%;
+                margin-top: 11%;
+            }
+            .desktop-promo-hidden{
+                display: flex;
+                background-color: #0000002a;
+                justify-content:center;
+                margin-top: 9%;
             }
         
     
